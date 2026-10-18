@@ -1,0 +1,12 @@
+{
+ "model": "sentence-transformers/all-MiniLM-L6-v2",
+ "dim": 384,
+ "load_s": 0.3103930999932345,
+ "embed_10k_s": 10.764376320999872,
+ "per_memory_ms": 1.0764376320999873,
+ "single_query_embed_ms_median": 1.4271199979702942,
+ "norms": [
+  0.9999999403953552,
+  1.0
+ ]
+}

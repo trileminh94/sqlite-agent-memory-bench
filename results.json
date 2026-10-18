@@ -1,0 +1,390 @@
+{
+ "A_rows_only": {
+  "file_bytes": 991232,
+  "page_size": 4096,
+  "page_count": 242,
+  "bytes_per_memory": 99.1232,
+  "objects": [
+   {
+    "name": "memories",
+    "pages": 241,
+    "bytes": 987136,
+    "payload": 917029,
+    "unused": 16257,
+    "cells": 10239,
+    "overflow_pages": 0,
+    "leaf_pages": 240,
+    "interior_pages": 1
+   },
+   {
+    "name": "sqlite_schema",
+    "pages": 1,
+    "bytes": 4096,
+    "payload": 166,
+    "unused": 3817,
+    "cells": 1,
+    "overflow_pages": 0,
+    "leaf_pages": 1,
+    "interior_pages": 0
+   }
+  ]
+ },
+ "B_rows_fts5": {
+  "file_bytes": 1478656,
+  "page_size": 4096,
+  "page_count": 361,
+  "bytes_per_memory": 147.8656,
+  "objects": [
+   {
+    "name": "memories",
+    "pages": 241,
+    "bytes": 987136,
+    "payload": 917029,
+    "unused": 16257,
+    "cells": 10239,
+    "overflow_pages": 0,
+    "leaf_pages": 240,
+    "interior_pages": 1
+   },
+   {
+    "name": "memories_fts_data",
+    "pages": 94,
+    "bytes": 385024,
+    "payload": 372870,
+    "unused": 9371,
+    "cells": 186,
+    "overflow_pages": 0,
+    "leaf_pages": 93,
+    "interior_pages": 1
+   },
+   {
+    "name": "memories_fts_docsize",
+    "pages": 23,
+    "bytes": 94208,
+    "payload": 40000,
+    "unused": 3979,
+    "cells": 10021,
+    "overflow_pages": 0,
+    "leaf_pages": 22,
+    "interior_pages": 1
+   },
+   {
+    "name": "sqlite_schema",
+    "pages": 1,
+    "bytes": 4096,
+    "payload": 780,
+    "unused": 3182,
+    "cells": 6,
+    "overflow_pages": 0,
+    "leaf_pages": 1,
+    "interior_pages": 0
+   },
+   {
+    "name": "memories_fts_idx",
+    "pages": 1,
+    "bytes": 4096,
+    "payload": 750,
+    "unused": 3086,
+    "cells": 84,
+    "overflow_pages": 0,
+    "leaf_pages": 1,
+    "interior_pages": 0
+   },
+   {
+    "name": "memories_fts_config",
+    "pages": 1,
+    "bytes": 4096,
+    "payload": 11,
+    "unused": 4074,
+    "cells": 1,
+    "overflow_pages": 0,
+    "leaf_pages": 1,
+    "interior_pages": 0
+   }
+  ]
+ },
+ "C_rows_fts5_vec0": {
+  "file_bytes": 17477632,
+  "page_size": 4096,
+  "page_count": 4267,
+  "bytes_per_memory": 1747.7632,
+  "objects": [
+   {
+    "name": "memories_vec_vector_chunks00",
+    "pages": 3846,
+    "bytes": 15753216,
+    "payload": 15728709,
+    "unused": 8967,
+    "cells": 14,
+    "overflow_pages": 3840,
+    "leaf_pages": 5,
+    "interior_pages": 1
+   },
+   {
+    "name": "memories",
+    "pages": 241,
+    "bytes": 987136,
+    "payload": 917029,
+    "unused": 16257,
+    "cells": 10239,
+    "overflow_pages": 0,
+    "leaf_pages": 240,
+    "interior_pages": 1
+   },
+   {
+    "name": "memories_fts_data",
+    "pages": 94,
+    "bytes": 385024,
+    "payload": 372870,
+    "unused": 9371,
+    "cells": 186,
+    "overflow_pages": 0,
+    "leaf_pages": 93,
+    "interior_pages": 1
+   },
+   {
+    "name": "memories_vec_rowids",
+    "pages": 33,
+    "bytes": 135168,
+    "payload": 77676,
+    "unused": 7103,
+    "cells": 10031,
+    "overflow_pages": 0,
+    "leaf_pages": 32,
+    "interior_pages": 1
+   },
+   {
+    "name": "memories_vec_chunks",
+    "pages": 23,
+    "bytes": 94208,
+    "payload": 83300,
+    "unused": 10703,
+    "cells": 11,
+    "overflow_pages": 20,
+    "leaf_pages": 2,
+    "interior_pages": 1
+   },
+   {
+    "name": "memories_fts_docsize",
+    "pages": 23,
+    "bytes": 94208,
+    "payload": 40000,
+    "unused": 3979,
+    "cells": 10021,
+    "overflow_pages": 0,
+    "leaf_pages": 22,
+    "interior_pages": 1
+   },
+   {
+    "name": "sqlite_sequence",
+    "pages": 1,
+    "bytes": 4096,
+    "payload": 47,
+    "unused": 4033,
+    "cells": 2,
+    "overflow_pages": 0,
+    "leaf_pages": 1,
+    "interior_pages": 0
+   },
+   {
+    "name": "sqlite_schema",
+    "pages": 1,
+    "bytes": 4096,
+    "payload": 1742,
+    "unused": 2185,
+    "cells": 14,
+    "overflow_pages": 0,
+    "leaf_pages": 1,
+    "interior_pages": 0
+   },
+   {
+    "name": "sqlite_autoindex_memories_vec_vector_chunks00_1",
+    "pages": 1,
+    "bytes": 4096,
+    "payload": 48,
+    "unused": 4010,
+    "cells": 10,
+    "overflow_pages": 0,
+    "leaf_pages": 1,
+    "interior_pages": 0
+   },
+   {
+    "name": "sqlite_autoindex_memories_vec_info_1",
+    "pages": 1,
+    "bytes": 4096,
+    "payload": 89,
+    "unused": 3987,
+    "cells": 4,
+    "overflow_pages": 0,
+    "leaf_pages": 1,
+    "interior_pages": 0
+   },
+   {
+    "name": "memories_vec_info",
+    "pages": 1,
+    "bytes": 4096,
+    "payload": 93,
+    "unused": 3979,
+    "cells": 4,
+    "overflow_pages": 0,
+    "leaf_pages": 1,
+    "interior_pages": 0
+   },
+   {
+    "name": "memories_fts_idx",
+    "pages": 1,
+    "bytes": 4096,
+    "payload": 750,
+    "unused": 3086,
+    "cells": 84,
+    "overflow_pages": 0,
+    "leaf_pages": 1,
+    "interior_pages": 0
+   },
+   {
+    "name": "memories_fts_config",
+    "pages": 1,
+    "bytes": 4096,
+    "payload": 11,
+    "unused": 4074,
+    "cells": 1,
+    "overflow_pages": 0,
+    "leaf_pages": 1,
+    "interior_pages": 0
+   }
+  ],
+  "vec0_bulk_insert_s": 0.12462148600025102
+ },
+ "D_rows_blob_f32": {
+  "file_bytes": 20533248,
+  "page_size": 4096,
+  "page_count": 5013,
+  "bytes_per_memory": 2053.3248,
+  "objects": [
+   {
+    "name": "memories",
+    "pages": 5012,
+    "bytes": 20529152,
+    "payload": 16297029,
+    "unused": 4092177,
+    "cells": 14999,
+    "overflow_pages": 0,
+    "leaf_pages": 5000,
+    "interior_pages": 12
+   },
+   {
+    "name": "sqlite_schema",
+    "pages": 1,
+    "bytes": 4096,
+    "payload": 191,
+    "unused": 3792,
+    "cells": 1,
+    "overflow_pages": 0,
+    "leaf_pages": 1,
+    "interior_pages": 0
+   }
+  ]
+ },
+ "E_json_text_vector": {
+  "file_bytes": 87265280,
+  "page_size": 4096,
+  "page_count": 21305,
+  "bytes_per_memory": 8726.528,
+  "objects": [
+   {
+    "name": "vectors",
+    "pages": 21254,
+    "bytes": 87056384,
+    "payload": 85520652,
+    "unused": 1335834,
+    "cells": 11249,
+    "overflow_pages": 20000,
+    "leaf_pages": 1250,
+    "interior_pages": 4
+   },
+   {
+    "name": "sqlite_autoindex_vectors_1",
+    "pages": 50,
+    "bytes": 204800,
+    "payload": 168766,
+    "unused": 5438,
+    "cells": 10000,
+    "overflow_pages": 0,
+    "leaf_pages": 49,
+    "interior_pages": 1
+   },
+   {
+    "name": "sqlite_schema",
+    "pages": 1,
+    "bytes": 4096,
+    "payload": 172,
+    "unused": 3808,
+    "cells": 2,
+    "overflow_pages": 0,
+    "leaf_pages": 1,
+    "interior_pages": 0
+   }
+  ]
+ },
+ "one_vector": {
+  "float32_blob_bytes": 1536,
+  "json_text_bytes": 8424,
+  "json_text_bytes_rounded6": 3967
+ },
+ "page_math": {
+  "max_local_table_leaf": 4061,
+  "min_local": 489
+ },
+ "latency_k5": {
+  "fts5_bm25": {
+   "median_ms": 0.4114780022064224,
+   "p95_ms": 1.3184740018914454,
+   "mean_ms": 0.5301003701364001,
+   "hit_at_5": 0.09333333333333334,
+   "queries": 300
+  },
+  "vec0_knn": {
+   "median_ms": 4.34306950046448,
+   "p95_ms": 4.718449999927543,
+   "mean_ms": 4.3921329699272365,
+   "hit_at_5": 0.27666666666666667,
+   "queries": 300
+  },
+  "hybrid_rrf": {
+   "median_ms": 5.503739495907212,
+   "p95_ms": 6.259159003093373,
+   "mean_ms": 5.57642007675895,
+   "hit_at_5": 0.18,
+   "queries": 300
+  },
+  "blob_scan_numpy": {
+   "median_ms": 14.339433004352031,
+   "p95_ms": 18.350349004322197,
+   "mean_ms": 15.22458882027422,
+   "hit_at_5": 0.24,
+   "queries": 50
+  },
+  "json_text_scan": {
+   "median_ms": 1201.4872135041514,
+   "p95_ms": 1223.9454029986518,
+   "mean_ms": 1201.1078311996243,
+   "hit_at_5": 0.1,
+   "queries": 10
+  }
+ },
+ "user_scoped": {
+  "users": 50,
+  "post_filter_avg_results_of_5": 0.25333333333333335,
+  "post_filter_zero_result_rate": 0.7733333333333333,
+  "pre_filter_avg_results_of_5": 5,
+  "pre_filter_median_ms": 0.6196059985086322
+ },
+ "machine": {
+  "cpu": "Intel(R) Xeon(R) Processor (8 vCPU VM)",
+  "ram_gb": 15,
+  "python": "3.13.5",
+  "sqlite": "3.46.1",
+  "sqlite_vec": "v0.1.9",
+  "os": "Linux-6.12.94+-x86_64-with-glibc2.41"
+ }
+}

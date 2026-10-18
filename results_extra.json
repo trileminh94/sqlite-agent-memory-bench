@@ -1,0 +1,68 @@
+{
+ "user_scoped_hit_at_5": {
+  "fts5": 0.69,
+  "vec": 0.9933333333333333,
+  "hybrid": 0.9566666666666667
+ },
+ "one_insert": {
+  "embed_ms": 4.805459997442085,
+  "insert_txn_ms": 18.916050998086575,
+  "pages_before": 4267,
+  "pages_after": 4267,
+  "pages_changed": 12,
+  "new_pages": 0,
+  "changed_by_object": {
+   "sqlite_schema": 1,
+   "memories_fts_idx": 1,
+   "sqlite_sequence": 1,
+   "memories": 1,
+   "memories_fts_data": 2,
+   "memories_fts_docsize": 1,
+   "memories_vec_chunks": 2,
+   "memories_vec_rowids": 1,
+   "memories_vec_vector_chunks00": 2
+  }
+ },
+ "one_recall": {
+  "query": "how does alex like replies?",
+  "vec_top3": [
+   [
+    10001,
+    0.8392735719680786,
+    "alex prefers short answers in plain english, details only when asked"
+   ],
+   [
+    366,
+    0.9822007417678833,
+    "alex asked to always get a short summary first, then details"
+   ],
+   [
+    1809,
+    0.9822007417678833,
+    "alex asked to always get a short summary first, then details"
+   ]
+  ],
+  "vec_ms": 6.806865996622946,
+  "fts_query": "\"alex\" OR \"like\" OR \"replies\"",
+  "fts_top3": [
+   [
+    65,
+    "alex prefers jetbrains with solarized for all coding sessions"
+   ],
+   [
+    391,
+    "weekly sync with alex is every wednesday at 3pm"
+   ],
+   [
+    458,
+    "alex speaks german natively and prefers docs in english"
+   ]
+  ]
+ },
+ "binary_vec0": {
+  "file_bytes": 753664,
+  "bytes_per_memory": 75.3664,
+  "median_ms": 0.762613501137821,
+  "hit_at_5_with_rerank": 0.27666666666666667
+ }
+}
